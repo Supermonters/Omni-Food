@@ -13,6 +13,7 @@ html,body {
     font-size: 20px;
     text-rendering: optimizeLegibility;
     overflow-x: hidden;
+    scroll-behavior: smooth;
   }
   
   a{
@@ -56,12 +57,20 @@ button{
     font-size: 1vw;
 }
 #bt1{
-    color: white;
-    background-color: orange; 
+    color: orange;
+    background:none ; 
 }
 #bt2{
     color: orange;
     background: none; 
+}
+#bt1:hover{
+    background-color: orange;
+    color: white;
+}
+#bt2:hover{
+    background-color: orange;
+    color: white;
 }
 .part1{
     margin-bottom: 25vw;
@@ -69,9 +78,9 @@ button{
 h1.hi{
     text-align: center;
     font-size: 2vw;
-    color: gray;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 100;
+    color: #555;
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-weight: 300;
     margin-bottom: 2vw;
     
 }
@@ -87,8 +96,8 @@ h1.hi{
 #pre1{
     text-align: center;
     color: gray;
-    font-family: 'Anek Malayalam', sans-serif;
-    font-weight: 700;
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-weight: 300;
     margin-bottom: 2vw;
 }
 .doanchu{
@@ -126,10 +135,6 @@ img.foodpic{
 filter: brightness(75%);
 border: 0;
 }
-/* img{
-    height: 16vw;
-    width: auto;
-} */
 .meals-showcase {
    list-style: none;
    width: 100%;
@@ -260,7 +265,7 @@ h2 {
     margin-bottom: 3vw;
 }
 .anhthanhpho{
-    height: 10vw;
+    height: 12vw;
 
 }
 .nhungthanhpho{
@@ -285,5 +290,103 @@ h2 {
     width: auto;
 }
 .part6{
-    margin-bottom: 12vw;
+    margin-bottom: 5vw;
+}
+.mu{
+    padding-top: 4vw; ;   
+    text-align: center;
+    font-size: 2vw;
+}
+
+.ctrlv{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10vw;
+    margin-top: 1vw;
+    margin-bottom: 3vw;
+}
+.discount{
+    display: flex;
+    justify-content: space-around;
+}
+#tnt{
+    margin-left: 20vw ;
+}
+#ntn{
+    margin-right: 20vw ;
+}
+.tien{
+    font-size: 300%;
+    margin: 0.5vw 1vw 0.5vw 1vw;
+    font-weight: 100;
+    color: #e67e22;
+}
+.tien span {
+    font-size: 30%;
+    font-weight: 300;
+}
+ul{
+    list-style-image: url('Omni Page/checkmark-8.ico');
+    font-family: 'Lato', 'Arial', sans-serif;
+}
+.combo{
+   background-color: #fcfcfc;
+   margin-bottom: 5vw;
+   
+}
+.plan_btn{
+    background-color: #fcfcfc;
+    color: #e67e22;
+    margin-left: 3.5vw;
+    margin-top: 0;
+    margin-bottom: 0.7vw;
+    font-weight: 300;
+}
+div.ultr{
+    margin: 0.5vw 0  0.6vw 0;
+    border: solid #f4f4f4 1px;
+    border-left: none;
+    border-right: none;
+    padding:1vw 2vw 1vw 2vw ;
+    background-color: #ffffff;
+}
+
+.phancap{
+    margin-top: 1vw;
+    margin-left: 1vw;
+    font-weight: 300;
+}
+.giaithich{
+    margin-left:1vw ;
+}
+.plan_btn:hover{
+    color: white;
+    background-color: #e67e22;
+}
+.part7{
+    background-color: #f4f4f4;
+    margin-bottom: 4vw; 
+}
+.ultr li{
+    margin:0.5vw 0 0.5vw 0 ;
+    padding-left: 1vw;
+}
+#autocad{
+ font-weight: 300;
+ font-family: 'Lato', 'Arial', sans-serif;
+}
+.jbc{
+    text-align: end;
+    margin-right:10vw;
+    font-weight: 300;
+
+}
+.ariana{
+    display: block;
+    margin-left: 68vw;
+    margin-right: auto;
+    width: 9vw;
+    margin-top: 1vw;
+    margin-bottom: 3vw;   
 }
