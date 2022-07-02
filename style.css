@@ -326,7 +326,7 @@ h2 {
     font-size: 30%;
     font-weight: 300;
 }
-ul{
+.ultr{
     list-style-image: url('Omni Page/checkmark-8.ico');
     font-family: 'Lato', 'Arial', sans-serif;
 }
@@ -390,3 +390,133 @@ div.ultr{
     margin-top: 1vw;
     margin-bottom: 3vw;   
 }
+.vaofacebooklikeanht{
+ margin-left: 50vw;
+}
+label {
+    cursor: default;
+}
+#name{
+    width: 30vw;
+    padding: 7px;
+    border-radius: 3px;
+    border: 1px solid #cdcdcd;
+    overflow: visible;
+    font-family: inherit;
+    font-size: 100%;
+    line-height: 1.15;
+    margin: 0 0 0.5vw 15vw;
+    color: #cdcdcd;
+    height: 2.5vw;
+    
+}
+#email{
+    width: 30vw;
+    padding: 7px;
+    border-radius: 3px;
+    border: 1px solid #cdcdcd;
+    overflow: visible;
+    font-family: inherit;
+    font-size: 100%;
+    line-height: 1.25;
+    margin: 0 0 0 15.25vw;
+    color: #cdcdcd;
+    height: 2.5vw;
+}
+#find-us{
+    width: 30vw;
+    padding: 7px;
+    border-radius: 3px;
+    border: 1px solid #cdcdcd;
+    font-family: inherit;
+    font-size: 100%;
+    line-height: 1.15;
+    margin: 0.5vw 0 0 8.25vw;
+    overflow: visible;
+    padding-right: 1vw;
+
+}
+.find-us{
+    margin-top: 1vw;
+    margin-left: 50vw;
+   }
+.amongus{
+    margin-top: 1vw;
+    margin-left: 50vw; 
+}
+#newsletter{
+    margin-top: 1vw;
+    margin-left: 12vw;
+    margin-bottom: 1.5vw;
+    margin-right: 0.25vw;
+}
+
+#ratchilacodon{
+    margin-left: 50vw;
+    margin-right: 11.5vw;
+    vertical-align: top;   
+}
+
+textarea{
+    width: 30vw;
+    padding: 7px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    height: 5vw;
+    font-family: inherit;
+    font-size: 100%;
+}
+.sendit{
+    background-color: #e67e22;
+    color: white;
+    margin-left: 68vw;
+    margin-top: 1vw;
+    margin-bottom: 0.7vw;
+    font-weight: 300;
+    background-color: #e67e22;
+    border: 1px solid #e67e27;
+    color: #fff;
+    font-family: inherit;
+}
+.part8{
+    margin-bottom: 5vw;
+    background-color: #ffffff;
+}
+.ugotmechimsau{
+    text-decoration: none;
+    border: 0;
+    color: #888;
+    transition: color 0.2s;
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-weight: 300;
+    font-size: 1vw;
+    list-style: none;    
+    margin-right: 1vw;
+   
+    padding-bottom: 3vw ;
+}
+.mck{
+    display: flex;
+    justify-content: baseline;
+    margin-left: 15vw;
+    padding-top: 3vw;
+}
+.quanhanh{
+    background-color: #333333;
+}
+.sogiayphutkhongthanh{
+    list-style-type:none ;
+    margin-right: 1vw;
+    display: inline-block;
+}
+#iherewhenilookatu{
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    padding-bottom: 0.5vw;
+}
+#youcame{
+    text-align: center;
+    padding-bottom: 4vw;
+}
+
